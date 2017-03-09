@@ -1,0 +1,108 @@
+.form {
+  overflow: hidden;
+}
+
+.closeButton {
+  background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjwhRE9DVFlQRSBzdmcgIFBVQkxJQyAnLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4nICAnaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkJz48c3ZnIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDUxMiA1MTIiIGlkPSJMYXllcl8xIiB2ZXJzaW9uPSIxLjEiIHZpZXdCb3g9IjAgMCA1MTIgNTEyIiB4bWw6c3BhY2U9InByZXNlcnZlIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj48Zz48cGF0aCBkPSJNNTAxLjUsNTEyYy0yLjcsMC01LjQtMS03LjUtMy4xTDMuMSwxOEMtMSwxMy45LTEsNy4yLDMuMSwzLjFDNy4yLTEsMTMuOS0xLDE4LDMuMUw1MDguOSw0OTQgICBjNC4xLDQuMSw0LjEsMTAuOCwwLDE0LjlDNTA2LjksNTExLDUwNC4yLDUxMiw1MDEuNSw1MTJ6IiBmaWxsPSIjNkE2RTdDIi8+PHBhdGggZD0iTTEwLjUsNTEyYy0yLjcsMC01LjQtMS03LjUtMy4xYy00LjEtNC4xLTQuMS0xMC44LDAtMTQuOUw0OTQsMy4xYzQuMS00LjEsMTAuOC00LjEsMTQuOSwwICAgYzQuMSw0LjEsNC4xLDEwLjgsMCwxNC45TDE4LDUwOC45QzE1LjksNTExLDEzLjIsNTEyLDEwLjUsNTEyeiIgZmlsbD0iIzZBNkU3QyIvPjwvZz48L3N2Zz4=) no-repeat;
+  width: 17px;
+  height: 17px;
+  display: block;
+  float: right;
+  margin: 20px 30px 0 0;
+}
+
+.closeButton:hover {
+  opacity: 0.5;
+}
+
+.titleFormLabel {
+  clear: both;
+}
+
+.formTitle {
+  text-align: center;
+  color: #491767;
+  font-size: 34px;
+  border-bottom: 1px solid #ccc;
+  padding: 30px 0 25px;
+}
+
+.formGroup {
+  padding: 0 30px;
+}
+
+.label {
+  padding-top: 10px;
+}
+
+.titleLabel {
+  margin: 0;
+  font-size: 16px;
+  line-height: 32px;
+}
+
+.inputField {
+  background: #f3f3f3;
+  border-radius: 3px;
+  border: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  padding: 13px 10px;
+  height: 40px;
+}
+
+.button {
+  display: block;
+  width: 100%;
+  text-align: center;
+  background: #19a69b;
+  color: #fff;
+  border: 0;
+  padding: 10px 0;
+  font-size: 16px;
+  margin-top: 50px;
+}
+
+:global(.modal-backdrop) {
+  background-color: rgba(243, 243, 243, 0.9);
+}
+
+:global(.modal-backdrop.in) {
+  opacity: 0.9;
+}
+
+:global(body.modal-open #app) {
+  -webkit-filter: blur(5px);
+  filter: blur(5px);
+}
+
+:global(body #app) {
+  -webkit-filter: blur(0);
+  filter: blur(0);
+}
+
+.form :global(.checkbox) {
+  text-align: right;
+}
+
+.form :global(.checkbox label) {
+  margin-left: 30px;
+  color: #999;
+}
+
+.form :global(::-webkit-input-placeholder) {
+  font-style: italic;
+}
+
+.form :global(:-moz-placeholder) {
+  font-style: italic;
+}
+
+.form :global(::-moz-placeholder) {
+  font-style: italic;
+}
+
+.form :global(:-ms-input-placeholder) {
+  font-style: italic;
+}
+

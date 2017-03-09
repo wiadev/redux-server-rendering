@@ -1,0 +1,30 @@
+.userMenu {
+  position: absolute;
+  background: #ccc;
+  border-radius: 5px;
+  z-index: 10;
+  text-align: center;
+  width: 250px;
+  right: 0;
+  overflow: hidden;
+}
+
+.settings {
+  padding: 25px 10px;
+
+  & .settingsTitle {
+    margin: 0 0 10px;
+  }
+}
+
+.icon {
+  width: 100%;
+}
+
+.logOut {
+  background: #333;
+  display: block;
+  padding: 10px 0;
+  color: #fff;
+  clear: both;
+}

@@ -1,0 +1,97 @@
+.label {
+  font-size: 13px;
+}
+
+.fieldDescription {
+  font-size: 12px;
+  color: #888;
+}
+
+.fieldSet {
+  padding: 18px 0 30px;
+}
+
+.fieldSet + .fieldSet {
+  border-top: 1px dashed #ccc;
+}
+
+.fieldSet:last-child:not(:first-child) {
+  padding: 30px 0 0;
+}
+
+.formRow:not(:last-child) {
+  margin-bottom: 25px;
+}
+
+:global(.dropZone) {
+  width: 100%;
+  height: 68px;
+  border: 1px dashed #ccc;
+  border-radius: 4px;
+  background: #fff;
+  position: relative;
+  cursor: pointer;
+  display: table;
+}
+
+:global(.dropZone::after) {
+  content: 'Drag & drop file here or Select a file';
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  color: #888;
+  font-size: 12px;
+}
+
+.addBtn {
+  color: #19a69b;
+  border: 1px dashed #19a69b;
+  background: #fff;
+  border-radius: 4px;
+  width: 100%;
+  padding: 10px 20px;
+  font-weight: bold;
+  text-align: center;
+  display: block;
+}
+
+:global(.panel-body) {
+  padding: 30px 15px;
+}
+
+:global(.form-control) {
+  border-radius: 3px;
+  background-color: #f3f3f3;
+  border-color: transparent;
+  box-shadow: none;
+  height: 40px;
+  color: #515151;
+  font-size: 14px;
+}
+
+.deleteButton {
+  background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjwhRE9DVFlQRSBzdmcgIFBVQkxJQyAnLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4nICAnaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkJz48c3ZnIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDMyIDMyIiBoZWlnaHQ9IjMycHgiIGlkPSLQodC70L7QuV8xIiB2ZXJzaW9uPSIxLjEiIHZpZXdCb3g9IjAgMCAzMiAzMiIgd2lkdGg9IjMycHgiIHhtbDpzcGFjZT0icHJlc2VydmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPjxnIGlkPSJDYW5jZWwiPjxwYXRoIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTE2LDBDNy4xNjMsMCwwLDcuMTYzLDAsMTZjMCw4LjgzNiw3LjE2MywxNiwxNiwxNiAgIGM4LjgzNiwwLDE2LTcuMTYzLDE2LTE2QzMyLDcuMTYzLDI0LjgzNiwwLDE2LDB6IE0xNiwzMEM4LjI2OCwzMCwyLDIzLjczMiwyLDE2QzIsOC4yNjgsOC4yNjgsMiwxNiwyczE0LDYuMjY4LDE0LDE0ICAgQzMwLDIzLjczMiwyMy43MzIsMzAsMTYsMzB6IiBmaWxsPSIjMTIxMzEzIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiLz48cGF0aCBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0yMi43MjksMjEuMjcxbC01LjI2OC01LjI2OWw1LjIzOC01LjE5NSAgIGMwLjM5NS0wLjM5MSwwLjM5NS0xLjAyNCwwLTEuNDE0Yy0wLjM5NC0wLjM5LTEuMDM0LTAuMzktMS40MjgsMGwtNS4yMzEsNS4xODhsLTUuMzA5LTUuMzFjLTAuMzk0LTAuMzk2LTEuMDM0LTAuMzk2LTEuNDI4LDAgICBjLTAuMzk0LDAuMzk1LTAuMzk0LDEuMDM3LDAsMS40MzJsNS4zMDEsNS4zMDJsLTUuMzMxLDUuMjg3Yy0wLjM5NCwwLjM5MS0wLjM5NCwxLjAyNCwwLDEuNDE0YzAuMzk0LDAuMzkxLDEuMDM0LDAuMzkxLDEuNDI5LDAgICBsNS4zMjQtNS4yOGw1LjI3Niw1LjI3NmMwLjM5NCwwLjM5NiwxLjAzNCwwLjM5NiwxLjQyOCwwQzIzLjEyMywyMi4zMDgsMjMuMTIzLDIxLjY2NywyMi43MjksMjEuMjcxeiIgZmlsbD0iIzEyMTMxMyIgZmlsbC1ydWxlPSJldmVub2RkIi8+PC9nPjxnLz48Zy8+PGcvPjxnLz48Zy8+PGcvPjwvc3ZnPg==);
+  width: 35px;
+  border: none;
+  height: 40px;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  padding: 0 15px;
+  opacity: 0.8;
+}
+
+.saveButton {
+  background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjwhRE9DVFlQRSBzdmcgIFBVQkxJQyAnLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4nICAnaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkJz48c3ZnIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDMyIDMyIiBoZWlnaHQ9IjMycHgiIGlkPSLQodC70L7QuV8xIiB2ZXJzaW9uPSIxLjEiIHZpZXdCb3g9IjAgMCAzMiAzMiIgd2lkdGg9IjMycHgiIHhtbDpzcGFjZT0icHJlc2VydmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPjxwYXRoIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTI3LjcwNCw4LjM5N2MtMC4zOTQtMC4zOTEtMS4wMzQtMC4zOTEtMS40MjgsMCAgTDExLjk4OCwyMi41OWwtNi4yODItNi4xOTNjLTAuMzk0LTAuMzkxLTEuMDM0LTAuMzkxLTEuNDI4LDBjLTAuMzk0LDAuMzkxLTAuMzk0LDEuMDI0LDAsMS40MTRsNi45OTksNi44OTkgIGMwLjM5LDAuMzg2LDEuMDM5LDAuMzg2LDEuNDI5LDBMMjcuNzA0LDkuODExQzI4LjA5OSw5LjQyMSwyOC4wOTksOC43ODcsMjcuNzA0LDguMzk3QzI3LjMxLDguMDA2LDI4LjA5OSw4Ljc4NywyNy43MDQsOC4zOTd6IiBmaWxsPSIjMTIxMzEzIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGlkPSJDaGVjayIvPjxnLz48Zy8+PGcvPjxnLz48Zy8+PGcvPjwvc3ZnPg==);
+  width: 35px;
+  border: none;
+  height: 40px;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  padding: 0 15px;
+  opacity: 0.8;
+  margin-right: 10px;
+}
+
+.staffLabel {
+  padding: 10px 0;
+}

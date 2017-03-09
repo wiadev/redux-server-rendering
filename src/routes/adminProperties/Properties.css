@@ -1,0 +1,9 @@
+.propertiesTable {
+  & thead > tr > th {
+    border-bottom: 1px dashed #ccc;
+  }
+
+  & tbody > tr > td {
+    border-top: 1px dashed #ccc;
+  }
+}

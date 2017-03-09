@@ -1,0 +1,23 @@
+.toolbarContainer {
+  position: absolute;
+  top: -65px;
+
+  & .backButton,
+  & .buttonNext {
+    background: none;
+    border: none;
+    font-size: 43px;
+    margin-top: -5px;
+    outline: none;
+    font-weight: 100;
+  }
+}
+
+.labelDate {
+  width: 100px;
+  float: left;
+  margin-top: 21px;
+  font-weight: 500;
+  font-size: 14px;
+  color: #515151;
+}

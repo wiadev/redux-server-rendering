@@ -1,0 +1,66 @@
+@import '../variables.css';
+
+.container,
+.roomList,
+.roomContainer,
+.addNewRoom,
+.roomLink {
+  padding: 0;
+  margin: 0;
+}
+
+.roomContainer {
+  list-style-type: none;
+  padding: 10px;
+}
+
+.roomLink {
+  font-size: 16px;
+  color: var(--grape-purple);
+  font-weight: normal;
+
+  @nest &:hover {
+    text-decoration: none;
+    color: var(--color-base);
+  }
+
+  @nest &:focus {
+    color: var(--grape-purple);
+    text-decoration: none;
+  }
+}
+
+.active {
+  background: #efefef;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.select {
+  font-size: 16px;
+  background: #efefef;
+}
+
+.roomName {
+  color: var(--grape-purple);
+  padding-left: 10px;
+}
+
+.addNewRoom {
+  color: var(--color-base);
+  display: block;
+  font-size: 16px;
+  font-weight: normal;
+  margin-left: 20px;
+  margin-top: 15px;
+
+  @nest &:hover {
+    text-decoration: none;
+    color: var(--color-base);
+  }
+}
+
+.bottomBorder {
+  font-size: 16px;
+}

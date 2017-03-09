@@ -1,0 +1,247 @@
+@import '../../variables.css';
+@import '../../vendor/vendor.css';
+
+/*
+ * Base styles
+ * ========================================================================== */
+
+html {
+  color: #222;
+  font-weight: 100;
+  font-size: 1em; /* ~16px; */
+  font-family: var(--font-family-base);
+  line-height: 1.375; /* ~22px */
+}
+
+body {
+  font-family: var(--font-family-base) !important;
+}
+
+a {
+  color: #0074c2;
+  text-decoration: none;
+}
+
+/*
+ * Remove text-shadow in selection highlight:
+ * https://twitter.com/miketaylr/status/12228805301
+ *
+ * These selection rule sets have to be separate.
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+::selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+/*
+ * Remove the gap between audio, canvas, iframes,
+ * images, videos and the bottom of their containers:
+ * https://github.com/h5bp/html5-boilerplate/issues/440
+ */
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+  vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+  resize: vertical;
+}
+
+/*
+ * Browser upgrade prompt
+ * ========================================================================== */
+
+:global(.browserupgrade) {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+/*
+ * Print styles
+ * Inlined to avoid the additional HTTP request:
+ * http://www.phpied.com/delay-loading-your-print-css/
+ * ========================================================================== */
+
+@media print {
+  *,
+  *::before,
+  *::after {
+    background: transparent !important;
+    color: #000 !important; /* Black prints faster: http://www.sanbeiji.com/archives/953 */
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+
+  a,
+  a:visited {
+    text-decoration: underline;
+  }
+
+  a[href]::after {
+    content: ' (' attr(href) ')';
+  }
+
+  abbr[title]::after {
+    content: ' (' attr(title) ')';
+  }
+
+  /*
+   * Don't show links that are fragment identifiers,
+   * or use the `javascript:` pseudo protocol
+   */
+
+  a[href^='#']::after,
+  a[href^='javascript:']::after {
+    content: '';
+  }
+
+  pre,
+  blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid;
+  }
+
+  /*
+   * Printing Tables:
+   * http://css-discuss.incutio.com/wiki/Printing_Tables
+   */
+
+  thead {
+    display: table-header-group;
+  }
+
+  tr,
+  img {
+    page-break-inside: avoid;
+  }
+
+  img {
+    max-width: 100% !important;
+  }
+
+  p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3;
+  }
+
+  h2,
+  h3 {
+    page-break-after: avoid;
+  }
+}
+
+.applicationContainer {
+  max-width: var(--max-content-width);
+  margin: 0 auto;
+}
+
+.leftColumn {
+  padding-left: 0;
+}
+
+.rightColumn {
+  padding-right: 0;
+}
+
+.subHeader {
+  height: 170px;
+}
+
+.proertiesSearchbar {
+  position: absolute;
+  top: -25px;
+  width: 100%;
+  padding: 0 10%;
+
+  & input[type='search'] {
+    width: 100%;
+    border: none;
+    border-radius: 3px;
+    background-color: #f3f3f3;
+    padding: 15px 15px 15px 55px;
+    background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjwhRE9DVFlQRSBzdmcgIFBVQkxJQyAnLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4nICAnaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkJz48c3ZnIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDUxMiA1MTIiIGlkPSJMYXllcl8xIiB2ZXJzaW9uPSIxLjEiIHZpZXdCb3g9IjAgMCA1MTIgNTEyIiB4bWw6c3BhY2U9InByZXNlcnZlIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj48Zz48cGF0aCBkPSJNMjAyLjcsNDA1LjVjLTU0LjIsMC0xMDUuMS0yMS4xLTE0My40LTU5LjRjLTc5LjEtNzkuMS03OS4xLTIwNy43LDAtMjg2LjhDOTcuNywyMSwxNDguNiwwLDIwMi43LDAgICBDMjU2LjksMCwzMDcuOCwyMSwzNDYuMSw1OS4zYzM4LjMsMzguMyw1OS40LDg5LjIsNTkuNCwxNDMuNGMwLDU0LjItMjEuMSwxMDUuMS01OS40LDE0My40QzMwNy44LDM4NC40LDI1Ni45LDQwNS41LDIwMi43LDQwNS41eiAgICBNMjAyLjcsMjEuMWMtNDguNSwwLTk0LjIsMTguOS0xMjguNSw1My4yYy03MC44LDcwLjgtNzAuOCwxODYuMSwwLDI1N2MzNC4zLDM0LjMsNzkuOSw1My4yLDEyOC41LDUzLjIgICBjNDguNSwwLDk0LjItMTguOSwxMjguNS01My4yYzM0LjMtMzQuMyw1My4yLTc5LjksNTMuMi0xMjguNWMwLTQ4LjUtMTguOS05NC4yLTUzLjItMTI4LjVDMjk2LjksMzkuOSwyNTEuMywyMS4xLDIwMi43LDIxLjF6IiBmaWxsPSIjNkE2RTdDIi8+PHBhdGggZD0iTTUwMS41LDUxMmMtMi43LDAtNS40LTEtNy41LTMuMUwzMzEuMiwzNDYuMWMtNC4xLTQuMS00LjEtMTAuOCwwLTE0LjljNC4xLTQuMSwxMC44LTQuMSwxNC45LDBMNTA5LDQ5NCAgIGM0LjEsNC4xLDQuMSwxMC44LDAsMTQuOUM1MDYuOSw1MTEsNTA0LjIsNTEyLDUwMS41LDUxMnoiIGZpbGw9IiM2QTZFN0MiLz48L2c+PC9zdmc+');
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position: 20px 14px;
+  }
+}
+
+.propertyList {
+  margin-top: 127px;
+}
+
+.tableTitle {
+  text-transform: uppercase;
+  font-size: 10px;
+  color: #515151;
+  font-weight: 600;
+  border-bottom: none !important;
+  padding: 0 0 15px !important;
+}
+
+.propTitleHead {
+  width: 40%;
+}
+
+.propDateHead {
+  width: 20%;
+}
+
+.propRateHead {
+  width: 10%;
+}
+
+.propLocationHead {
+  width: 10%;
+}
+
+.propIdHead {
+  width: 13%;
+}
+
+.propStatusHead {
+  width: 7%;
+}

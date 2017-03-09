@@ -1,0 +1,94 @@
+.header {
+  padding: 15px 15px 0;
+  border-bottom: none;
+}
+
+.body {
+  padding: 0;
+  text-align: center;
+}
+
+.title {
+  font-size: 34px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  text-align: center;
+  color: #491767;
+}
+
+.section {
+  overflow: hidden;
+  text-align: left;
+  padding: 25px 0;
+}
+
+.firstSection {
+  border-bottom: 1px solid #ccc;
+}
+
+.button {
+  border: none;
+  color: #fff;
+  width: 100%;
+  margin-top: 30px;
+  outline: none !important;
+  height: 45px;
+  background-color: #19a69b;
+  border-radius: 0;
+}
+
+.button:hover,
+.button:focus,
+.button:active {
+  background: #888;
+  color: #fff;
+  outline: 0;
+}
+
+.segmentBox {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.groupTitle {
+  font-size: 14px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  color: #515151;
+  margin: 0;
+}
+
+.segmentGroup {
+  width: 80%;
+}
+
+.segmentButton {
+  width: 50% !important;
+  background: white;
+  color: black;
+  outline: none !important;
+}
+
+.segmentButton:hover {
+  width: 50% !important;
+  background: white;
+  color: black;
+}
+
+.segmentButton:hover.active,
+.segmentButton:active.active,
+.segmentButton:focus.active {
+  width: 50% !important;
+  background: #888;
+  color: white;
+}
+
+.active {
+  width: 50% !important;
+  background: #888;
+  color: white;
+}

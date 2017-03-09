@@ -1,0 +1,51 @@
+.checkbox {
+  display: none;
+}
+
+.toggler {
+  width: 70px;
+  height: 30px;
+  border-radius: 15px;
+  position: relative;
+  display: table-cell;
+  vertical-align: middle;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 11px;
+}
+
+.yes {
+  background: #19a69b;
+  color: #fff;
+  padding-left: 24px;
+
+  &::after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    background: #fff;
+    top: 2px;
+    left: 2px;
+  }
+}
+
+.no {
+  background: #868686;
+  color: #fff;
+  padding-right: 23px;
+
+  &::after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    background: #fff;
+    top: 2px;
+    right: 2px;
+  }
+}

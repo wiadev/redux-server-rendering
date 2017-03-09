@@ -1,0 +1,121 @@
+@import '../../variables.css';
+
+.dropZone {
+  width: 100%;
+  height: 100px;
+  border: 2px dashed #ccc;
+  background: #eee;
+  position: relative;
+  cursor: pointer;
+}
+
+.dropZone::after {
+  background: url('https://d17oy1vhnax1f7.cloudfront.net/items/0w3T421I1t0k3e063b1d/1478604234_backup.png?v=04d46c93');
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  left: 35%;
+  top: 20%;
+  content: '';
+  background-size: 80%;
+  background-repeat: no-repeat;
+  opacity: 0.5;
+}
+
+:global(.hidden) {
+  display: none;
+}
+
+.logoHolder {
+  position: relative;
+  border: 1px dashed #9d9d9d;
+}
+
+.logoHolder img {
+  max-width: 100%;
+}
+
+.logoHolderCls {
+  border: none;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  padding: 5px;
+  background: #fff;
+  text-decoration: none;
+  font-size: 21px;
+  display: block;
+  line-height: 18px;
+  width: 24px;
+  height: 24px;
+  color: var(--bluegreen);
+  overflow: hidden;
+}
+
+.logoHolderCls:hover {
+  color: #000;
+  text-decoration: none;
+  background-color: #f0f0f0;
+}
+
+.galleryHolder {
+  border-top: 1px dashed #9d9d9d;
+  margin-top: 30px;
+  padding-top: 30px;
+}
+
+.galleryImagePreview {
+}
+
+.galleryImageHolder {
+  padding-left: 130px;
+  margin-bottom: 40px;
+  min-height: 100px;
+}
+
+.galleryImage {
+  position: relative;
+  margin-left: -130px;
+  float: left;
+}
+
+.addGalleryPreview {
+  display: none;
+}
+
+.galleryImageHolderCls {
+  border: none;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  padding: 5px;
+  background: #fff;
+  text-decoration: none;
+  font-size: 21px;
+  display: block;
+  line-height: 18px;
+  width: 24px;
+  height: 24px;
+  color: var(--bluegreen);
+  overflow: hidden;
+}
+
+.galleryImageHolderCls:hover {
+  color: #000;
+  text-decoration: none;
+  background-color: #f0f0f0;
+}
+
+.star {
+  position: absolute;
+  right: 24px;
+  text-align: center;
+  bottom: 0;
+  padding: 5px;
+  background: #fff;
+  text-decoration: none;
+  font-size: 21px;
+  display: block;
+  width: 24px;
+  height: 24px;
+}

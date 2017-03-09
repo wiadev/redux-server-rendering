@@ -1,0 +1,6 @@
+{
+  "name": "ProfileStatus",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./ProfileStatus.js"
+}

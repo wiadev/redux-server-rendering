@@ -1,0 +1,33 @@
+.form {
+  padding-left: 15px;
+}
+
+:global(.sectionTitle) {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  color: #515151;
+}
+
+:global(.tag-type) {
+  margin-bottom: 10px;
+}
+
+.editorToolbar {
+  padding: 6px 5px 0;
+  border: 1px solid #f1f1f1;
+  overflow: hidden;
+}
+
+:global(.rdw-option-wrapper) {
+  float: left;
+  width: 30px;
+  height: 30px;
+}
+
+:global(.rdw-editor-main) {
+  padding: 10px;
+  border: 1px solid #eee;
+}

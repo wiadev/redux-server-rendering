@@ -1,0 +1,40 @@
+.blur {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  top: 65px;
+  left: 0;
+  -webkit-filter: blur(5px);
+  filter: blur(5px);
+}
+
+.overlay {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: #333;
+  z-index: 2;
+  top: 65px;
+  left: 0;
+  background-color: rgba(243, 243, 243, 0.9);
+}
+
+.customerView {
+  position: fixed;
+  width: 40%;
+  height: 100%;
+  background: #fff;
+  right: 0;
+  top: 65px;
+  z-index: 3;
+}
+
+:global(.customer-list) {
+  filter: blur(5px);
+}
+
+:global(body #app) {
+  -webkit-filter: blur(0);
+  filter: blur(0);
+}

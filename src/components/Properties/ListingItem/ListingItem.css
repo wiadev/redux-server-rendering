@@ -1,0 +1,41 @@
+@import '../../variables.css';
+
+.image {
+  max-width: 170px;
+  float: left;
+}
+
+.rooms {
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  color: #515151;
+}
+
+.dataCell {
+  border-top: 1px solid #bfbfbf !important;
+  padding: 30px 0 !important;
+  font-size: 12px;
+  color: #515151;
+  font-weight: 600;
+}
+
+.hotelTitle {
+  color: var(--grape-purple);
+  font-size: 16px;
+  font-weight: bold;
+  font-style: normal;
+}
+
+.status {
+  display: inline-block;
+  width: 55px;
+  line-height: 22px;
+  border-radius: 3px;
+  background-color: #19a69b;
+  background-color: var(--bluegreen);
+  color: #fff;
+  text-align: center;
+}

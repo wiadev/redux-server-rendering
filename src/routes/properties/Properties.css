@@ -1,0 +1,19 @@
+.propertiesAccordion {
+  & .panel {
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 0;
+    border: none;
+  }
+}
+
+.panel {
+  & .panel-heading {
+    padding: 6px 15px;
+  }
+
+  & .panel-body {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}

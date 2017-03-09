@@ -1,0 +1,50 @@
+.calendar {
+  margin-top: 30px;
+}
+
+.calendarTable {
+  width: 100%;
+  border-right: 1px dashed #aaa;
+}
+
+.placeholder {
+  padding-bottom: 100%;
+  width: 100%;
+  height: 100%;
+}
+
+.dayRow {
+  border-bottom: 1px dashed #aaa;
+}
+
+.dayCell {
+  font-weight: bold;
+  padding-left: 10px;
+  width: 140px;
+}
+
+.day {
+  border-left: 1px dashed #aaa;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  text-align: center;
+  padding-top: 5px;
+  color: #aaa;
+}
+
+.hourCell {
+  flex: 1;
+  position: relative;
+}
+
+.open {
+  background-color: #f7f2f9;
+  background-image: repeating-linear-gradient(135deg, transparent, transparent 25%, #eee7f2 25%, #eee7f2 50%);
+}
+
+.close {
+  background: #efefef;
+}

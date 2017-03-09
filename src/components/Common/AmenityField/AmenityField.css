@@ -1,0 +1,11 @@
+.formInput {
+  background-color: #f3f3f3;
+  padding: 10px 20px;
+  width: 100%;
+  display: table;
+  border-radius: 4px;
+  font-weight: normal;
+  outline: none;
+  border: none;
+  height: 42px;
+}

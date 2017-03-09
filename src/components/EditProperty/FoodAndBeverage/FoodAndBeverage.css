@@ -1,0 +1,25 @@
+.subSection {
+  border-bottom: 1px dashed #ccc;
+}
+
+.label {
+  font-size: 14px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  color: #515151;
+}
+
+.helperText {
+  color: #868686;
+}
+
+.foodPolicy {
+  margin-bottom: 30px;
+  border-bottom: 1px dashed #ccc;
+  padding-bottom: 20px;
+}
+
+.formRow {
+  margin-bottom: 10px;
+}

@@ -1,0 +1,20 @@
+.list {
+  padding-left: 0;
+}
+
+.listItemMember {
+  list-style: none;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+.addMoreButton {
+  background: none;
+  border: none;
+  text-decoration: underline;
+  outline: none;
+}
+
+.mainButton {
+  width: 100%;
+}

@@ -1,0 +1,6 @@
+{
+  "name": "EditDetails",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./EditDetails.js"
+}

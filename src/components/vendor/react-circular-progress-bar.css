@@ -1,0 +1,22 @@
+/*
+ * react-circular-progressbar styles
+ *
+ * All of the styles in this file are optional and configurable!
+ */
+
+:global(.CircularProgressbar .CircularProgressbar-path) {
+  stroke: #bbbbbb;
+  stroke-linecap: round;
+  transition: stroke-dashoffset 0.5s ease 0s;
+}
+
+:global(.CircularProgressbar .CircularProgressbar-trail){
+  stroke: #dfdfdf;
+}
+
+:global(.CircularProgressbar .CircularProgressbar-text) {
+  fill: #969696;
+  font-size: 20px;
+  dominant-baseline: middle;
+  text-anchor: middle;
+}

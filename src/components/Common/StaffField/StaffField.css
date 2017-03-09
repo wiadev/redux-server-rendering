@@ -1,0 +1,31 @@
+.formGroup {
+  background-color: #f3f3f3;
+  padding: 10px 20px;
+  width: 100%;
+  display: table;
+  border-radius: 4px;
+  font-weight: normal;
+}
+
+.formControl,
+.formControl:focus {
+  display: table-cell;
+  vertical-align: middle;
+  width: 85%;
+  background: transparent;
+  outline: none;
+  border: none;
+}
+
+.fullWidth {
+  width: 100% !important;
+}
+
+.counter {
+  display: table-cell;
+  vertical-align: middle;
+  color: #aba9a9;
+  font-weight: bold;
+  font-size: 11px;
+  text-align: right;
+}

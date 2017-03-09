@@ -1,0 +1,112 @@
+.form {
+  overflow: hidden;
+}
+
+.titleFormLabel {
+  clear: both;
+}
+
+.formTitle {
+  text-align: center;
+  color: #491767;
+  font-size: 34px;
+  border-bottom: 1px solid #ccc;
+  padding: 30px 0 25px;
+}
+
+.formGroup {
+  padding: 0 30px;
+}
+
+.label {
+  padding-top: 10px;
+}
+
+.titleLabel {
+  margin: 0;
+  font-size: 16px;
+  line-height: 32px;
+}
+
+.inputField {
+  background: #f3f3f3;
+  border-radius: 3px;
+  border: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  padding: 13px 10px;
+  height: 40px;
+}
+
+.button {
+  display: block;
+  width: 100%;
+  text-align: center;
+  background: #19a69b;
+  color: #fff;
+  border: 0;
+  padding: 10px 0;
+  font-size: 16px;
+  margin-top: 50px;
+}
+
+:global(.modal-backdrop) {
+  background-color: rgba(243, 243, 243, 0.9);
+}
+
+:global(.modal-backdrop.in) {
+  opacity: 0.9;
+}
+
+:global(body.modal-open #app) {
+  -webkit-filter: blur(5px);
+  filter: blur(5px);
+}
+
+:global(body #app) {
+  -webkit-filter: blur(0);
+  filter: blur(0);
+}
+
+.typeHead {
+  position: relative;
+}
+
+.dropDown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  overflow: auto;
+  border-radius: 5px;
+  max-height: 300px;
+  z-index: 100;
+  background: #fff;
+  border-color: 1px solid #9a9a9a;
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.3);
+  display: none;
+}
+
+.dropDown:global(.show) {
+  display: block;
+}
+
+.dropDown ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.dropDown ul li a {
+  display: block;
+  padding: 5px 10px;
+  white-space: nowrap;
+  width: inherit;
+  overflow: hidden;
+  color: #333;
+}
+
+.dropDown ul li a:hover {
+  text-decoration: none;
+  background: #f8f8f8;
+}

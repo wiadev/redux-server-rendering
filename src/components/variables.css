@@ -1,0 +1,38 @@
+:root {
+  /*
+   * Typography
+   * ======================================================================== */
+
+  --font-family-base: 'Source Sans Pro', sans-serif;
+  --font-family-headlines: 'Roboto', sans-serif;
+  --color-base: #9a9a9a;
+  --color-secondary: #cecece;
+  --color-light-background: #f1f1f1;
+  --font-weight: 300;
+
+  /*
+   * Layout
+   * ======================================================================== */
+
+  --max-content-width: 1120px;
+
+  /*
+   * Media queries breakpoints
+   * ======================================================================== */
+
+  --screen-xs-min: 480px;  /* Extra small screen / phone */
+  --screen-sm-min: 768px;  /* Small screen / tablet */
+  --screen-md-min: 992px;  /* Medium screen / desktop */
+  --screen-lg-min: 1200px; /* Large screen / wide desktop */
+
+  /**
+  * Colors
+  */
+  --bizly-gradient-moz: -moz-linear-gradient(-45deg, #a62d5b 0%, #491767 100%);
+  --bizly-gradient-webkit: -webkit-linear-gradient(-45deg, #a62d5b 0%, #491767 100%);
+  --bizly-gradient: linear-gradient(135deg, #a62d5b 0%, #491767 100%);
+  --bluegreen: #19a69b;
+  --bluegreen-shadow: rgba(25, 166, 155, 0.5);
+  --light-burgundy: #a62d5b;
+  --grape-purple: #491767;
+}

@@ -1,0 +1,66 @@
+.formRow {
+  margin-bottom: 15px;
+  padding: 10px 0;
+}
+
+.foodWrapper {
+  border-bottom: 1px dotted #ccc;
+  margin-bottom: 35px;
+}
+
+.formRowWithLabels {
+  position: relative;
+
+  & .label {
+    font-size: 14px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    color: #515151;
+    margin-bottom: 5px;
+    margin-top: 0;
+  }
+}
+
+.addAnotherSection {
+  color: #333;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border: none;
+  background: none;
+  text-decoration: underline;
+  outline: none;
+  text-align: left;
+}
+
+.formInput {
+  background-color: #f3f3f3;
+  padding: 10px 20px;
+  width: 100%;
+  display: table;
+  border-radius: 4px;
+  font-weight: normal;
+}
+
+.footerLink {
+  border-top: 1px dashed #ccc;
+  padding-top: 15px;
+  margin-top: 15px;
+}
+
+.helperText {
+  color: #868686;
+  margin-bottom: 20px;
+}
+
+.addBtn {
+  color: #19a69b;
+  border: 1px dashed #19a69b;
+  background: #fff;
+  border-radius: 4px;
+  width: 100%;
+  padding: 10px 20px;
+  font-weight: bold;
+  text-align: center;
+  display: block;
+}

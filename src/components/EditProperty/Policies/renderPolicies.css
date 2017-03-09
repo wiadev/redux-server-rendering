@@ -1,0 +1,28 @@
+.formInput {
+  background-color: #f3f3f3;
+  padding: 10px 20px;
+  width: 100%;
+  display: table;
+  border-radius: 4px;
+  font-weight: normal;
+  outline: none;
+  border: none;
+  height: 42px;
+}
+
+.label {
+  font-size: 14px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  color: #515151;
+}
+
+.helperText {
+  font-size: 12px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.42;
+  color: #868686;
+}

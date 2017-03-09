@@ -1,0 +1,65 @@
+@import '../../variables.css';
+
+.galleryHolder {
+  border-top: 1px dashed #9d9d9d;
+  border-bottom: 1px dashed #9d9d9d;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  padding-top: 30px;
+}
+
+.galleryImagePreview {
+}
+
+.galleryImageHolder {
+  padding-left: 130px;
+  margin-bottom: 40px;
+  min-height: 100px;
+}
+
+.galleryImage {
+  position: relative;
+  margin-left: -130px;
+  float: left;
+}
+
+.addGalleryPreview {
+  display: none;
+}
+
+.galleryImageHolderCls {
+  border: none;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  padding: 5px;
+  background: #fff;
+  text-decoration: none;
+  font-size: 21px;
+  display: block;
+  line-height: 18px;
+  width: 24px;
+  height: 24px;
+  color: var(--bluegreen);
+  overflow: hidden;
+}
+
+.galleryImageHolderCls:hover {
+  color: #000;
+  text-decoration: none;
+  background-color: #f0f0f0;
+}
+
+.star {
+  position: absolute;
+  right: 24px;
+  text-align: center;
+  bottom: 0;
+  padding: 5px;
+  background: #fff;
+  text-decoration: none;
+  font-size: 21px;
+  display: block;
+  width: 24px;
+  height: 24px;
+}

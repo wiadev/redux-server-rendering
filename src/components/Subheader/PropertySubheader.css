@@ -1,0 +1,42 @@
+@import '../variables.css';
+
+.container {
+  margin: 0 auto;
+  padding: 67px 0;
+  color: var(--color-base);
+  max-width: var(--max-content-width);
+  position: relative;
+  overflow: hidden;
+}
+
+.title {
+  color: #fff;
+  font-size: 26px;
+  font-family: var(--font-family-headlines);
+  margin: 40px 0 0 10px;
+}
+
+.buttons {
+  margin-top: 40px;
+}
+
+.save {
+  position: relative;
+  background: var(--bluegreen);
+  color: #fff;
+  width: 100%;
+  border-radius: 3px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  display: block;
+  line-height: 24px;
+}
+
+.preview {
+  display: block;
+  border-radius: 3px;
+  border: solid 1px var(--bluegreen);
+  color: var(--bluegreen);
+  font-size: 14px;
+  line-height: 24px;
+}

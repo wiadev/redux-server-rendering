@@ -1,0 +1,55 @@
+.container {
+  font-size: 0.75em;
+  color: #a0a0a0;
+  background: #f1f1f1;
+  margin-bottom: 20px;
+}
+
+.header {
+  padding: 10px;
+}
+
+.message {
+  font-size: 10px;
+  padding: 15px 0 0 10px;
+}
+
+.messageTitle {
+  font-size: 10px;
+  padding: 0;
+  margin: 0 0 5px;
+  text-transform: uppercase;
+}
+
+.messageSubtitle {
+  font-weight: 400;
+}
+
+.footer {
+  color: #fff;
+  background: #bcbcbc;
+  text-align: center;
+  font-size: 10px;
+  padding: 5px 0;
+}
+
+.footerTitle {
+  margin: 0;
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+
+.footerSubtitle {
+  font-size: 10px;
+  margin: 0;
+}
+
+.footerAction {
+  display: block;
+  margin: 0 auto;
+  color: #fff;
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-size: 10px;
+  font-weight: 500;
+}

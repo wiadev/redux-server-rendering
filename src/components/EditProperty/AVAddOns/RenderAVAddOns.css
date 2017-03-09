@@ -1,0 +1,51 @@
+.formRow {
+  margin-bottom: 15px;
+  padding: 10px 0;
+}
+
+.formRowWithLabels {
+  padding-top: 0px;
+  position: relative;
+
+  & .label {
+    font-size: 14px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    color: #515151;
+  }
+}
+
+.addAnotherSection {
+  color: #333;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border: none;
+  background: none;
+  text-decoration: underline;
+  outline: none;
+  text-align: left;
+}
+
+.footerLink {
+  border-top: 1px dashed #ccc;
+  padding-top: 15px;
+  margin-top: 15px;
+}
+
+.avSection {
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 15px;
+}
+
+.addBtn {
+  color: #19a69b;
+  border: 1px dashed #19a69b;
+  background: #fff;
+  border-radius: 4px;
+  width: 100%;
+  padding: 10px 20px;
+  font-weight: bold;
+  text-align: center;
+  display: block;
+}

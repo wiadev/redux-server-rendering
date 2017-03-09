@@ -1,0 +1,192 @@
+@import '../../variables.css';
+
+.label {
+  font-size: 14px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  color: #515151;
+}
+
+.helperText {
+  font-size: 12px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.42;
+  color: #868686;
+}
+
+.dropZone {
+  width: 100%;
+  height: 70px;
+  position: relative;
+  cursor: pointer;
+  border-radius: 3px;
+  border: dashed 1px #bfbfbf;
+}
+
+.dropZone::after {
+  position: absolute;
+  width: 100%;
+  height: 100px;
+  left: 0;
+  top: 40%;
+  content: 'Drag & drop file here or Select a file';
+  background-size: 80%;
+  background-repeat: no-repeat;
+  opacity: 0.5;
+  text-align: center;
+}
+
+.logo {
+  position: relative;
+  float: right;
+}
+
+:global(.hidden) {
+  display: none;
+}
+
+.logoSection {
+  margin-bottom: 30px;
+}
+
+.logoHolder {
+  position: relative;
+  border: 1px dashed #9d9d9d;
+}
+
+.logoHolder img {
+  max-width: 100%;
+}
+
+.logoHolderCls {
+  border: none;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  padding: 5px;
+  background: #fff;
+  text-decoration: none;
+  font-size: 21px;
+  display: block;
+  line-height: 18px;
+  width: 24px;
+  height: 24px;
+  color: var(--bluegreen);
+  overflow: hidden;
+}
+
+.logoHolderCls:hover {
+  color: #000;
+  text-decoration: none;
+  background-color: #f0f0f0;
+}
+
+.galleryHolder {
+  border-top: 1px dashed #979797;
+  margin-top: 30px;
+  padding-top: 30px;
+}
+
+.galleryImagePreview {
+
+}
+
+.galleryImageHolder {
+  padding-left: 130px;
+  margin-bottom: 40px;
+  min-height: 100px;
+}
+
+.galleryImage {
+  position: relative;
+  margin-left: -130px;
+  float: left;
+}
+
+.addGalleryPreview {
+  display: none;
+}
+
+.galleryImageHolderCls {
+  border: none;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  padding: 5px;
+  background: #fff;
+  text-decoration: none;
+  font-size: 21px;
+  display: block;
+  line-height: 18px;
+  width: 24px;
+  height: 24px;
+  color: var(--bluegreen);
+  overflow: hidden;
+}
+
+.galleryImageHolderCls:hover {
+  color: #000;
+  text-decoration: none;
+  background-color: #f0f0f0;
+}
+
+.star {
+  position: absolute;
+  right: 24px;
+  text-align: center;
+  bottom: 0;
+  padding: 5px;
+  background: #fff;
+  text-decoration: none;
+  font-size: 21px;
+  display: block;
+  width: 24px;
+  height: 24px;
+}
+
+
+.typeHead {
+  position: relative;
+}
+
+.dropDown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  overflow: auto;
+  border-radius: 5px;
+  max-height: 300px;
+  z-index: 100;
+  background: #fff;
+  border-color: 1px solid #9a9a9a;
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.3);
+  display: none;
+}
+
+.dropDown:global(.show) {
+  display: block;
+}
+
+.dropDown ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.dropDown ul li a {
+  display: block;
+  padding: 5px 10px;
+  white-space: nowrap;
+  width: inherit;
+  overflow: hidden;
+  color: #333;
+}
+
+.dropDown ul li a:hover {
+  text-decoration: none;
+  background: #f8f8f8;
+}

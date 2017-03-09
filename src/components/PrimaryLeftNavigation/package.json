@@ -1,0 +1,6 @@
+{
+  "name": "PrimaryLeftNavigation",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./PrimaryLeftNavigation.js"
+}

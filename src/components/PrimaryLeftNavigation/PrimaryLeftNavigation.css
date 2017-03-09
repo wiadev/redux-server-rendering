@@ -1,0 +1,40 @@
+@import '../variables.css';
+
+.content {
+  color: var(--color-base);
+}
+
+.container {
+  text-decoration: none;
+  padding: 0;
+}
+
+.rootAction {
+  color: var(--color-base);
+  list-style-type: none;
+  padding: 0;
+  margin: 0 0 20px;
+}
+
+.primaryAction {
+  color: var(--color-base);
+  text-decoration: none;
+  font-size: 21px;
+  font-weight: 300;
+  height: 100px;
+  position: relative;
+}
+
+.primaryAction:hover,
+.primaryAction:active {
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.propertyLink {
+  color: var(--color-base);
+}
+
+.roomLink {
+  color: var(--grape-purple);
+}

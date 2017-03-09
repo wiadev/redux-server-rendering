@@ -1,0 +1,27 @@
+.subLabel {
+  font-weight: bold;
+  margin: 10px auto;
+  font-size: 13px;
+  color: #555;
+}
+
+.title {
+  font-size: 14px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  color: #515151;
+}
+
+.tagTypeWrapper {
+  overflow: hidden;
+}
+
+.label {
+  font-size: 12px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.42;
+  color: #868686;
+}

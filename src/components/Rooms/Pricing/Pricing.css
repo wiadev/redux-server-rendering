@@ -1,0 +1,19 @@
+@import '../../variables.css';
+
+.section {
+  border-bottom: 1px dashed #979797;
+  margin-bottom: 25px;
+
+  &:last-child {
+    border-bottom: none;
+  }
+}
+
+.addMoreButton {
+  width: 100%;
+  color: var(--bluegreen);
+  background: none;
+  border: 1px dashed var(--bluegreen);
+  border-radius: 3px;
+  padding: 10px 0;
+}
